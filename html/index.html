@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pan Card</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <body>
+      <div id="logo">
+        <img src="../assests/images/pancard.png" alt="pancard" width="180px" />
+      </div>
+
+      <div class="form">
+        <h1>New PAN Card Application Form</h1>
+        <form action="/action_page.php">
+          <div class="sec">
+            <h5>APPLICANT NAME DETAIL</h5>
+            <p>Name as given in Aadhaar Card</p>
+            <input type="text" required />
+
+            <div class="flex1">
+              <div>
+                <p>Surname / Last Name</p>
+                <input type="text" required />
+              </div>
+              <div>
+                <p>First Name</p>
+                <input type="text" required />
+              </div>
+              <div>
+                <p>Middle Name [Father or Husband name]</p>
+                <input type="text" required />
+              </div>
+            </div>
+
+            <div>
+              <p>Name Identity Proof</p>
+              <select name="id_proof" id="id_proof">
+                <option value="def">Select Name Identity Proof</option>
+                <option value="aadhaar">Aadhaar</option>
+              </select>
+            </div>
+          </div>
+          <br />
+
+          <div class="sec">
+            <h5>FATHER NAME DETAIL</h5>
+            <div class="flex1">
+              <div>
+                <p>Surname / Last Name</p>
+                <input type="text" required />
+              </div>
+              <div>
+                <p>First Name</p>
+                <input type="text" required />
+              </div>
+              <div>
+                <p>Middle Name [Father or Husband name]</p>
+                <input type="text" required />
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="sec">
+            <p>Applicant's Date Of Birth</p>
+
+            <p>Date of Birth Proof</p>
+            <select>
+              <option value="">Select Date of Birth Proof</option>
+              <option value="aadhaar-card">Aadhaar Card</option>
+              <option value="election-card">Election Card / Voter ID</option>
+              <option value="driving-license">Driving License</option>
+              <option value="passport">Passport</option>
+              <option value="birth-certificate">
+                Birth certificate issued by the Municipal Authority or any
+                office authorised to issue birth
+              </option>
+              <option value="matriculation-mark-sheet">
+                Matriculation certificate or Mark sheet of recognized board
+              </option>
+              <option value="birth-affidavit-magistrate">
+                Affidavit sworn before a magistrate stating the date of birth
+              </option>
+              <option value="domicile-certificate">
+                Domicile certificate issued by the Government
+              </option>
+              <option value="central-government-health-scheme-card">
+                Central Government Health Scheme Card
+              </option>
+              <option value="ex-servicemen-contributory-health-scheme">
+                Ex-Servicemen Contributory Health Scheme photo card
+              </option>
+              <option value="pension-payment-order">
+                Pension payment order
+              </option>
+              <option value="marriage-certificate">Marriage Certificate</option>
+              <option value="poi-by-central-state-public-sector">
+                Photo identity card issued by the Central Government or State
+                Government or Public Sector Undertaking
+              </option>
+            </select>
+          </div>
+
+          <br />
+
+          <div class="sec">
+            <p>Address Proof</p>
+            <select>
+              <option value="address-proof">Select Address Proof</option>
+              <option value="aadhaar-card">Aadhaar Card</option>
+              <option value="election-card">Election Card / Voter ID</option>
+              <option value="driving-license">Driving License</option>
+              <option value="passport">Passport</option>
+              <option value="passport-spouse">
+                Passport of Spouse (Husband/Wife)
+              </option>
+              <option value="electricity-bill">
+                Electricity Bill less than 3 months old
+              </option>
+              <option value="landline-bill">
+                Landline/Broadband connection bill less than 3 months old
+              </option>
+              <option value="bank-account-statement">
+                Bank account statement less than 3 months old
+              </option>
+              <option value="post-office-passbook">
+                Post office passbook having address of the applicant
+              </option>
+              <option value="water-bill">
+                Water Bill less than 3 months old
+              </option>
+              <option value="gas-connection-bill">
+                Consumer gas connection card or book or piped gas bill
+              </option>
+              <option value="property-tax-assessment-order">
+                Latest property tax assessment order
+              </option>
+              <option value="property-registration">
+                Property Registration Document
+              </option>
+              <option value="certificate-gazetted-officer">
+                Certificate of identity in Original signed by a Gazetted officer
+              </option>
+              <option value="certificate-member-parliament">
+                Certificate of identity in Original signed by a Member of
+                Parliament
+              </option>
+              <option value="certificate-member-legislative-assembly">
+                Certificate of identity in Original signed by a Member of
+                Legislative Assembly
+              </option>
+              <option value="certificate-municipal-councilor">
+                Certificate of identity in Original signed by a Municipal
+                Councilor
+              </option>
+              <option value="credit-card-statement">
+                Credit card statement less than 3 months old
+              </option>
+              <option value="employer-certificate">
+                Employer certificate in original
+              </option>
+              <option value="depository-account-statement">
+                Depository account statement less than 3 months old
+              </option>
+              <option value="accommodation-letter-by-central-state-gov">
+                Allotment letter of accommodation issued by the Central/State
+                Government less than 3 years old
+              </option>
+              <option value="domicile-certificate">
+                Domicile certificate issued by the Government
+              </option>
+            </select>
+
+            <p>Mobile Number</p>
+            <div class="flex2">
+              <p style="width: 30px">
+                <input type="text" placeholder="+91" disabled />
+              </p>
+              <p style="width: 100%">
+                <input
+                  type="text"
+                  placeholder="Enter your Mobile Number here"
+                  required
+                />
+              </p>
+            </div>
+
+            <p>Email ID</p>
+            <input
+              type="email"
+              placeholder="Enter your Email Id here"
+              required
+            />
+          </div>
+
+          <div class="btn">
+            <input type="button" value="Submit" class="btn1" required />
+          </div>
+        </form>
+      </div>
+    </body>
+  </head>
+</html>

@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo{
+    text-align: center;
+    margin: 1.5%;
+}
+
+.form{
+    margin: auto;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow:unset;
+}
+
+.flex2{
+display: flex;
+justify-content: left;
+}
+
+p{
+    margin-top: 2.5%;
+    color: rgb(57,103,177);
+    font-style: italic;
+    font-weight: bold;
+}
+
+h5{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+select{
+    width: 101%;
+    margin-bottom: 5px;
+}
+
+
+.sec{
+    background-color: rgb(238,240,243);
+    /* background-color: rgb(5, 105, 255); */
+    padding: 2%;
+}
+
+.btn{
+    margin: auto;
+    text-align: center;
+    width:200px;
+}
+
+.btn1{
+    background-color: rgb(51,92,158);
+    color: white;
+    font-style: bold;
+}
